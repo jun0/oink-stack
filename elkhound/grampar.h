@@ -20,10 +20,6 @@ class StringTable;        // strtable.h
 
 
 // -------- rest of the program's view of parser ------------
-// name of extra parameter to yyparse (i.e. the context in
-// which the parser operates, instead of that being stored
-// in some collection of globals)
-#define YYPARSE_PARAM parseParam
 
 // type of thing extra param points at
 struct ParseParams {
